@@ -1,0 +1,324 @@
+@media only screen and (min-width: 2000px){
+    .container{
+        width: 90%;
+    }
+    .header-btm .header-nav{
+        width: 90%;
+    }
+    section .search-form .form_search{
+        width: 90%;
+    }
+    .wrapperbtm{
+        width: 90%;
+    }
+    .refer-friend{
+        width: 90%;
+    }
+    footer .footer-content{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1900px){
+    .container{
+        width: 75%;
+    }
+    .header-btm .header-nav{
+        width: 75%;
+    }
+    section .search-form .form_search{
+        width: 75%;
+    }
+    .wrapperbtm{
+        width: 75%;
+    }
+    .refer-friend{
+        width: 75%;
+    }
+    footer .footer-content{
+        width: 75%;
+    }
+} 
+@media only screen and (max-width: 1070px){
+    .owl-carousel .carbox{
+        height: 25vw;
+    }
+}
+@media only screen and (max-width: 830px){
+    .wrapper{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        padding: 4vw;
+    } 
+    .container .btn_list .btn, .sbtn{
+        display: none;
+    }
+
+    .container .logo img{
+        width: 60vw;
+        height: 16.5vw;
+    }
+    .searchbtn{
+        display: inline-block;
+        z-index: 999;
+        margin-right: 4vw;
+    }
+
+    .menubtn{
+        display: inline-block;
+        z-index: 999;
+    }
+    .header-btm{
+        display: none;
+    }
+    .navbar .menu{
+        display: block;
+        left: -1000px;
+        transition: all 0.5s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .menubtn i.active:before{
+        content: "\f00d";
+    }
+    .search-form .form_search{
+        display: none;
+    }
+    .navbar .menu ul li a{
+        font-size: 20px;
+    }
+    .searchbtn #search{
+        top: 12vw;
+    }
+    section .search-form{
+        width: 100%;
+        height: 242px;
+    }
+    section .search-form img{
+        width: 260px;
+        top: 20px;
+        left: -50px;
+    }
+    section .search-form h1{
+        margin-top: 100px;
+        font-size: 8vw;
+    }
+    section .details{
+        display: block;
+    }
+    section .details .details-box{
+        padding: 9vw 4vw;
+    }
+    
+    section .details .details-box h3{
+        font-size: 7vw;
+    }
+    section .details .details-box p{
+        font-size: 5.3vw;
+        margin-top: 3vw;
+    }
+    section .details .details-box button{
+        font-size: 4vw;
+        padding: 3vw 5vw;
+        border-radius: 10px;
+        margin-top: 8vw;
+        margin-bottom: 7vw;
+    }
+    section .details .details-box img{
+        position: absolute;
+        bottom: 15vw;
+        right: -28vw;
+        width: 55vw; 
+    }
+    section .details .cdetails img{
+        position: absolute;
+        bottom: 12vw;
+        right: 1vw;
+        width: 35vw; 
+    }
+    section .details .mdetails img{
+        position: absolute;
+        bottom: 20vw;
+        right: -7vw;
+        width: 40vw; 
+    }
+    .roles{
+        padding-bottom: 7vw;
+    }
+    .roles img{
+        display: none;
+    }
+    .roles h3{
+        padding: 7vw 0;
+        font-size: 6vw;
+    }
+    .wrapperbtm{
+        width: 100%;
+    }
+    .owl-carousel .carbox{
+        width: 90vw;
+        margin: auto;
+        padding: 4vw;
+        height: 80vw;
+    }
+    .owl-dots{
+        display: none;
+    }
+    .owl-carousel .carbox h5{
+        font-size: 4vw;
+        margin-bottom: 5vw;
+    }
+    .owl-carousel .carbox h4{
+        font-size: 6vw;
+        margin-bottom: 3vw;
+    }
+    .owl-carousel .carbox h6{
+        font-size: 5vw;
+        margin-bottom: 3vw;
+    }
+    .owl-carousel .carbox p{
+        font-size: 5vw;
+        margin-bottom: 3vw;
+    }
+    .owl-carousel .carbox a{
+        font-size: 3.5vw;
+        padding-right: 5vw;
+        font-weight: bold;
+    }
+    .group-company{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 8vw 5vw;
+    }
+    .connect-group img{
+        display: none;
+    }
+    .connect-group h4{
+        font-size: 12vw;
+    }
+    .connect-group p{
+        font-size: 5.6vw;
+        line-height: 6vw;
+        padding-bottom: 8vw;
+    }
+    .connect-group .btn-more{
+        display: block;
+        font-size: 4.5vw;
+    }
+    .connect-group .para2{
+        display: none;
+    }
+    .connect-group .img2{
+        display: block;
+    }
+    .refer-friend{
+        width: 100%;
+        height: auto;
+        padding: 0vw 5vw 10vw;
+    }
+    .refer-friend .refer-image{
+        display: none;
+    }
+    .refer-friend .refer-text .referp2{
+        display: none;
+    }
+    .refer-friend .refer-text{
+        width: 100%;
+        padding: none;
+    }
+    .refer-friend .refer-text h4{
+        font-size: 12vw;
+        padding-bottom: 4vw;
+        padding-top: none;
+    }
+    .refer-friend .refer-text p{
+        font-size: 5.5vw;
+        line-height: 6vw;
+        padding-bottom: 8vw;
+        text-align: justify;
+        line-height: 6.5vw;
+    }
+    .refer-friend .refer-text .btn-refer{
+        display: block;
+        font-size: 4.5vw;
+        text-transform: uppercase;
+        padding: 2.5vw 5vw;
+    }
+    footer .footer-content{
+        display: none;
+    }
+    footer{
+        padding: 5vw;
+        position: relative;
+    }
+    footer i{
+        position: absolute;
+        font-size: 5vw;
+        color: #756fac;
+        top: 6vw;
+    }
+    footer .mobile{
+        display: block;
+        color: white;
+        font-family: 'proxima_reg';
+    }
+    footer .mobile .call-m{
+        margin-left: 9vw;
+    }
+    footer .mobile .call-epo{
+        margin-left: 9vw;
+        margin-top: 6vw;
+        position: relative;
+    }
+    footer .mobile .call-epo i{
+        position: absolute;
+        left: -9vw;
+        top: -0vw;
+    }
+    footer .mobile .call-m, .call-epo p{
+        font-size: 6.5vw;
+        line-height: 7vw;
+    }
+    footer .mobile .call-m .call{
+        font-weight: bold;
+        color: #756fac;
+    }
+    footer .mobile .call-epo .call{
+        font-weight: bold;
+        color: #756fac;
+    }
+    footer .mobile .logofb{
+        margin-left: 9vw;
+        margin-top: 6vw;
+        margin-bottom: 6vw
+    }
+    footer .mobile .logofb img{
+        width: 11vw;
+        margin-right: 1vw
+    }
+    footer .mobile .copyright-mobile p{
+        text-transform: uppercase;
+        font-size: 4.6vw;
+        line-height: 7vw;
+    }
+    footer .mobile .copyright-mobile p a{
+        color:  #756fac;
+    }
+    footer .mobile .copyright-mobile .site{
+        font-size: 3.5vw;
+        margin-top: 8vw;
+    }
+    footer .mobile .copyright-mobile .site img{
+        width: 5.5vw;
+        margin-left: 3vw;
+        margin-bottom: -1vw;
+    }
+}
+@media only screen and (max-width: 600px){
+    .owl-carousel .carbox{
+        height: 85vw;
+    }
+}
